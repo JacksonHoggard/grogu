@@ -1,22 +1,11 @@
 package com.github.crembluray.grogu.data.entities;
 
-import com.github.crembluray.grogu.setup.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.entity.MobEntity;
-import net.minecraft.entity.ai.RandomPositionGenerator;
-import net.minecraft.entity.ai.brain.memory.MemoryModuleType;
-import net.minecraft.entity.ai.brain.memory.WalkTarget;
-import net.minecraft.entity.ai.brain.task.WalkRandomlyTask;
 import net.minecraft.entity.ai.goal.Goal;
-import net.minecraft.entity.ai.goal.LookAtGoal;
-import net.minecraft.entity.ai.goal.LookAtWithoutMovingGoal;
-import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.vector.Vector3d;
 
 import java.util.EnumSet;
-import java.util.Optional;
 
 public class UseForceGoal extends Goal {
 
@@ -31,7 +20,7 @@ public class UseForceGoal extends Goal {
         this.watchedBlock = watchedBlock;
         lookTime = 0;
         chance = chanceIn;
-        this.setMutexFlags(EnumSet.of(Goal.Flag.LOOK, Goal.Flag.MOVE));
+        this.setMutexFlags(EnumSet.of(Flag.LOOK, Flag.MOVE));
     }
 
     @Override
