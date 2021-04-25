@@ -1,8 +1,8 @@
-package com.github.crembluray.grogu;
+package com.github.jacksonhoggard.grogu;
 
-import com.github.crembluray.grogu.data.entities.GroguEntity;
-import com.github.crembluray.grogu.setup.ModEntities;
-import com.github.crembluray.grogu.setup.Registration;
+import com.github.jacksonhoggard.grogu.data.entities.GroguEntity;
+import com.github.jacksonhoggard.grogu.setup.ModEntities;
+import com.github.jacksonhoggard.grogu.setup.Registration;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraft.world.biome.MobSpawnInfo;
@@ -40,7 +40,7 @@ public class Grogu
         });
     }
 
-    // As biomes are loading in, add Grogu entity to certain entity spawn locations
+    // As biomes are loading in, add Grogu entity to certain spawn locations
     @SubscribeEvent(priority = EventPriority.HIGH)
     void onBiomeLoadingEvent(BiomeLoadingEvent event) {
         List<MobSpawnInfo.Spawners> spawns = event.getSpawns().getSpawner(EntityClassification.AMBIENT);

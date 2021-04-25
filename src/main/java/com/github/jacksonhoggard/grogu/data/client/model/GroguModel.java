@@ -1,6 +1,6 @@
-package com.github.crembluray.grogu.data.client.model;
+package com.github.jacksonhoggard.grogu.data.client.model;
 
-import com.github.crembluray.grogu.data.entities.GroguEntity;
+import com.github.jacksonhoggard.grogu.data.entities.GroguEntity;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import net.minecraft.client.renderer.entity.model.EntityModel;

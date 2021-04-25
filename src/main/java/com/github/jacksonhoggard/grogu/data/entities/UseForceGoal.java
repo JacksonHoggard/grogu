@@ -1,4 +1,4 @@
-package com.github.crembluray.grogu.data.entities;
+package com.github.jacksonhoggard.grogu.data.entities;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

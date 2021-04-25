@@ -1,6 +1,6 @@
-package com.github.crembluray.grogu.data.entities;
+package com.github.jacksonhoggard.grogu.data.entities;
 
-import com.github.crembluray.grogu.setup.ModBlocks;
+import com.github.jacksonhoggard.grogu.setup.ModBlocks;
 import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.MobEntity;

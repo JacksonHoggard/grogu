@@ -1,8 +1,8 @@
-package com.github.crembluray.grogu.setup;
+package com.github.jacksonhoggard.grogu.setup;
 
-import com.github.crembluray.grogu.Grogu;
-import com.github.crembluray.grogu.data.blocks.BlockItemBase;
-import com.github.crembluray.grogu.data.blocks.MetalBallBlock;
+import com.github.jacksonhoggard.grogu.Grogu;
+import com.github.jacksonhoggard.grogu.data.blocks.BlockItemBase;
+import com.github.jacksonhoggard.grogu.data.blocks.MetalBallBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;

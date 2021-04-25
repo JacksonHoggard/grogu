@@ -1,4 +1,4 @@
-package com.github.crembluray.grogu.data.blocks;
+package com.github.jacksonhoggard.grogu.data.blocks;
 
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;

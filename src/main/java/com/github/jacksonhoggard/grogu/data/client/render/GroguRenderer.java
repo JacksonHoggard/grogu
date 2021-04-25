@@ -1,9 +1,9 @@
-package com.github.crembluray.grogu.data.client.render;
+package com.github.jacksonhoggard.grogu.data.client.render;
 
-import com.github.crembluray.grogu.Grogu;
-import com.github.crembluray.grogu.data.client.model.GroguModel;
-import com.github.crembluray.grogu.data.entities.GroguEntity;
-import com.github.crembluray.grogu.setup.ModBlocks;
+import com.github.jacksonhoggard.grogu.Grogu;
+import com.github.jacksonhoggard.grogu.data.client.model.GroguModel;
+import com.github.jacksonhoggard.grogu.data.entities.GroguEntity;
+import com.github.jacksonhoggard.grogu.setup.ModBlocks;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

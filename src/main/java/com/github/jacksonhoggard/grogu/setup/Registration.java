@@ -1,4 +1,4 @@
-package com.github.crembluray.grogu.setup;
+package com.github.jacksonhoggard.grogu.setup;
 
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
